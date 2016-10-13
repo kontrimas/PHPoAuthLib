@@ -128,7 +128,7 @@ class Facebook extends AbstractService
         TokenStorageInterface $storage,
         $scopes = array(),
         UriInterface $baseApiUri = null,
-        $apiVersion = ""
+        $apiVersion = "2.2"
     ) {
         parent::__construct($credentials, $httpClient, $storage, $scopes, $baseApiUri, true, $apiVersion);
 
