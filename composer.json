@@ -1,8 +1,14 @@
 {
-    "name": "lusitanian/oauth",
+    "name": "kontrimas/oauth",
     "description": "PHP 5.3+ oAuth 1/2 Library",
     "keywords": ["oauth", "authentication", "authorization", "security"],
     "license": "MIT",
+        "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/kontrimas/PHPoAuthLib"  
+        }  
+    ],
     "authors": [
         {
             "name": "David Desberg",
